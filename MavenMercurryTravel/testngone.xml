@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" > 
+  <test name="Regression1">
+    <classes>
+      <class name="testngPack.ScreenShot"/>
+     	<class name="testngPack.RegistrationTest"/>
+          <class name="testngPack.Login"/>
+            <class name="testngPack.SearchTest"/>
+      <!-- <class name="testngPack.IndianHolidayTest"/> -->
+    </classes>
+  </test>
+</suite>
